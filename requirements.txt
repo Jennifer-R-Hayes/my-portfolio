@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pandas
+faker
+reportlab
+openpyxl
+jsonschema
+streamlit
+numpy
+rpy2
+matplotlib
+scikit-learn
