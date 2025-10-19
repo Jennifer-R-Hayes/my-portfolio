@@ -1,0 +1,27 @@
+{
+  "rules": [
+    {
+      "id": "R001",
+      "description": "Check for missing Invoice Numbers",
+      "field": "InvoiceNumber",
+      "type": "not_null",
+      "severity": "High"
+    },
+    {
+      "id": "R002",
+      "description": "Check for zero or negative Declared Value",
+      "field": "DeclaredValue",
+      "type": "greater_than",
+      "value": 0,
+      "severity": "High"
+    },
+    {
+      "id": "R003",
+      "description": "Check for invalid Import Country Codes",
+      "field": "ImportCountry",
+      "type": "in_list",
+      "allowed_values": ["US", "CA", "MX"],
+      "severity": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Rule ID,Description,Severity,Field,Invalid Value,InvoiceNumber
+R001,Check for missing Invoice Numbers,High,InvoiceNumber,,
+R002,Check for zero or negative Declared Value,High,DeclaredValue,0,INV002
+R002,Check for zero or negative Declared Value,High,DeclaredValue,-50,INV004
+R003,Check for invalid Import Country Codes,Medium,ImportCountry,FR,

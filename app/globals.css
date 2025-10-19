@@ -1,6 +1,6 @@
-/* @import "tailwindcss";
+@import "tailwindcss";
 
-@layer utilities {
+/* @layer utilities {
   @plugin "tailwindcss-animate";
 } */
 
